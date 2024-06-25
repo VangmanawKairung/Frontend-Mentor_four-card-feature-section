@@ -1,0 +1,72 @@
+// Font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// Colors
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+
+// Font size
+$font-size-root: 15px;
+
+// Device min-width
+$mobile-min-width: 375px;
+$desktop-min-width: 1440px;
+
+// Constant
+$border-top-line: 2px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-root;
+  font-family: Poppins;
+  color: $grayish-blue;
+  font-weight: 400;
+  background-color: $very-light-gray;
+}
+
+h1,
+h2 {
+  color: $very-dark-blue;
+  font-weight: 600;
+}
+
+h1.first-line {
+  font-weight: 200;
+}
+
+.cards {
+  .card {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 12px $grayish-blue;
+    display: block;
+
+    .icon-section {
+      display: flex;
+      justify-content: right;
+    }
+  }
+
+  #first-card {
+    border-top: $border-top-line solid $cyan;
+  }
+
+  #second-card {
+    border-top: $border-top-line solid $red;
+  }
+
+  #third-card {
+    border-top: $border-top-line solid $blue;
+  }
+
+  #fourth-card {
+    border-top: $border-top-line solid $orange;
+  }
+}

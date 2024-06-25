@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Poppins;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1,
+h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+h1.first-line {
+  font-weight: 200;
+}
+
+.cards .card {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 10px 10px 12px hsl(229, 6%, 66%);
+  display: block;
+}
+.cards .card .icon-section {
+  display: flex;
+  justify-content: right;
+}
+.cards #first-card {
+  border-top: 2px solid hsl(180, 62%, 55%);
+}
+.cards #second-card {
+  border-top: 2px solid hsl(0, 78%, 62%);
+}
+.cards #third-card {
+  border-top: 2px solid hsl(212, 86%, 64%);
+}
+.cards #fourth-card {
+  border-top: 2px solid hsl(34, 97%, 64%);
+}/*# sourceMappingURL=style.css.map */
