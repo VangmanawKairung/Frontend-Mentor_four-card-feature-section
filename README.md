@@ -55,9 +55,9 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Useful resources
 
-- [grid - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - This website helps me to handle with the grid display layout
+- [grid - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - This website helps me to handle with the grid display layout.
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This website clearifies the grid layout attributes.
-- [grid-row](https://css-tricks.com/almanac/properties/g/grid-row/)
+- [grid-row](https://css-tricks.com/almanac/properties/g/grid-row/) - This website assists the grid row management.
 
 
 ## Author
