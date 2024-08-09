@@ -9,6 +9,7 @@ $blue: hsl(212, 86%, 64%);
 $very-dark-blue: hsl(234, 12%, 34%);
 $grayish-blue: hsl(229, 6%, 66%);
 $very-light-gray: hsl(0, 0%, 98%);
+$grayish-blue-shadow: hsla(230, 42%, 75%, 0.408);
 
 // Font size
 $font-size-root: 15px;
@@ -18,26 +19,35 @@ $mobile-min-width: 375px;
 $desktop-min-width: 1440px;
 
 // Constant
-$border-top-line: 2px;
+$border-top-line: 4px;
+
+:root {
+  font-size: $font-size-root;
+  font-weight: 400;
+  font-family: Poppins;
+  color: $grayish-blue;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: $font-size-root;
-  font-family: Poppins;
-  color: $grayish-blue;
-  font-weight: 400;
   background-color: $very-light-gray;
 }
 
-h1,
+.first-line,
+.second-line,
 h2 {
   color: $very-dark-blue;
   font-weight: 600;
 }
 
-h1.first-line {
+.first-line {
+  font-weight: 200;
+}
+
+.header-detail {
+  text-align: center;
   font-weight: 200;
 }
 
@@ -45,12 +55,26 @@ h1.first-line {
   .card {
     border-radius: 5px;
     background-color: white;
-    box-shadow: 10px 10px 12px $grayish-blue;
-    display: block;
+    box-shadow: 0px 10px 15px $grayish-blue-shadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .detail {
+      h2,
+      p {
+        background-color: white;
+      }
+    }
 
     .icon-section {
       display: flex;
       justify-content: right;
+      background-color: white;
+
+      img {
+        background: none;
+      }
     }
   }
 
@@ -63,10 +87,118 @@ h1.first-line {
   }
 
   #third-card {
-    border-top: $border-top-line solid $blue;
+    border-top: $border-top-line solid $orange;
   }
 
   #fourth-card {
-    border-top: $border-top-line solid $orange;
+    border-top: $border-top-line solid $blue;
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+    height: fit-content;
+    padding: 80px 30px 70px 30px;
+    margin: 0 auto;
+
+    .header {
+      width: 100%;
+      margin-bottom: 70px;
+
+      .first-line {
+        font-size: 1.6rem;
+        text-align: center;
+      }
+
+      .second-line {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header-detail {
+        text-align: center;
+      }
+    }
+
+    .cards {
+      .card {
+        height: 220px;
+        margin-bottom: 25px;
+        padding: 30px 25px 25px 25px;
+
+        .detail {
+          line-height: 1.5rem;
+          h2 {
+            padding-bottom: 5px;
+            font-size: 1.3rem;
+          }
+          p {
+            font-size: 0.8rem;
+            letter-spacing: 0.8px;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    height: 922px;
+    margin: 0 auto;
+    padding: 85px 165px;
+
+    .header {
+      width: 510px;
+      margin: 0 auto 60px auto;
+      .first-line,
+      .second-line {
+        font-size: 2.3rem;
+      }
+
+      .first-line {
+        line-height: 2.8rem;
+      }
+
+      .second-line {
+        margin-bottom: 10px;
+      }
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+
+      .card {
+        width: 350px;
+        height: 250px;
+      }
+
+      #first-card {
+        grid-column: 1;
+        grid-row: 1/3;
+        margin: auto 0;
+      }
+
+      #second-card {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      #third-card {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      #fourth-card {
+        grid-column: 3;
+        grid-row: 1/3;
+        margin: auto 0;
+      }
+    }
   }
 }
