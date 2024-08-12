@@ -26,11 +26,11 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Screenshot
 <details>
 <summary><strong>Mobile View</strong></summary>
-<img src="./result/mobile view.png">
+<img src="source/result/mobile view.png">
 </details>
 <details>
 <summary><strong>Descktop View</strong></summary>
-<img src="./result/desktop view.png">
+<img src="source/result/desktop view.png">
 </details>
 
 ### Links
