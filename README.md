@@ -29,7 +29,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 <img src="source/result/mobile.png">
 </details>
 <details>
-<summary><strong>Descktop View</strong></summary>
+<summary><strong>Desktop View</strong></summary>
 <img src="source/result/desktop.png">
 </details>
 
