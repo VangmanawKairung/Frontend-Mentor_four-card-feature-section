@@ -30,7 +30,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 </details>
 <details>
 <summary><strong>Desktop View</strong></summary>
-<img src="source/result/desktop.png">
+<img src="source/result/desktops.png">
 </details>
 
 ### Links
