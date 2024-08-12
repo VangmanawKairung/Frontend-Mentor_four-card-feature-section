@@ -36,7 +36,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [Four card feature section page with Sass and Grid component](https://www.frontendmentor.io/solutions/four-card-feature-section-page-with-sass-and-grid-component-wx_Zm33enJ)
-- Live Site URL: [Four card feature section](https://vangmanawkairung.github.io/Frontend-Mentor__four-card-feature-section-master/)
+- Live Site URL: [Frontend Mentor | Four card feature section](https://vangmanawkairung.github.io/Frontend-Mentor_four-card-feature-section/)
 
 ## My process
 
