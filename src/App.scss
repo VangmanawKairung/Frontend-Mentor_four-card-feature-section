@@ -66,6 +66,10 @@ h1 {
   height: 100%;
   padding: 90px 30px 78px 30px;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   header {
     text-align: center;
     margin-bottom: 75px;
@@ -90,7 +94,7 @@ h1 {
   .cards-container {
     display: grid;
     gap: 25px;
-    grid-template-columns: 1f;
+    grid-template-columns: 310px;
 
     .card {
       width: 100%;
@@ -120,7 +124,7 @@ h1 {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .container {
     position: absolute;
     top: 50%;
@@ -129,10 +133,6 @@ h1 {
     width: fit-content;
     height: fit-content;
     padding: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     header {
       width: 510px;
