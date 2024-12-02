@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Frontend-Mentor_four-card-feature-section/static/css/main.666a2557.css",
+    "main.js": "/Frontend-Mentor_four-card-feature-section/static/js/main.ec6da0b2.js",
+    "static/media/icon-karma.svg": "/Frontend-Mentor_four-card-feature-section/static/media/icon-karma.24e0debeb1e51eaa14e295270e33df54.svg",
+    "static/media/icon-supervisor.svg": "/Frontend-Mentor_four-card-feature-section/static/media/icon-supervisor.2dd10a2df2ddca34f77ca6a2065c6be2.svg",
+    "static/media/icon-team-builder.svg": "/Frontend-Mentor_four-card-feature-section/static/media/icon-team-builder.b885fb580a3cb78c9ad249750dd65a01.svg",
+    "static/media/icon-calculator.svg": "/Frontend-Mentor_four-card-feature-section/static/media/icon-calculator.21bc9adc97d084a64aedb386f1e35c0d.svg",
+    "index.html": "/Frontend-Mentor_four-card-feature-section/index.html",
+    "main.666a2557.css.map": "/Frontend-Mentor_four-card-feature-section/static/css/main.666a2557.css.map",
+    "main.ec6da0b2.js.map": "/Frontend-Mentor_four-card-feature-section/static/js/main.ec6da0b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.666a2557.css",
+    "static/js/main.ec6da0b2.js"
+  ]
+}
